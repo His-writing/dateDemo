@@ -14,22 +14,9 @@
 		F090AD431A7A332C003DEB59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F090AD421A7A332C003DEB59 /* main.m */; };
 		F090AD471A7A332C003DEB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F090AD461A7A332C003DEB59 /* AppDelegate.m */; };
 		F090AD491A7A332C003DEB59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F090AD481A7A332C003DEB59 /* Images.xcassets */; };
-		F090AD501A7A332C003DEB59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090AD4F1A7A332C003DEB59 /* XCTest.framework */; };
-		F090AD511A7A332C003DEB59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090AD361A7A332C003DEB59 /* Foundation.framework */; };
-		F090AD521A7A332C003DEB59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F090AD3A1A7A332C003DEB59 /* UIKit.framework */; };
-		F090AD5A1A7A332C003DEB59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F090AD581A7A332C003DEB59 /* InfoPlist.strings */; };
-		F090AD5C1A7A332C003DEB59 /* dateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F090AD5B1A7A332C003DEB59 /* dateDemoTests.m */; };
+		F090AD671A7A3387003DEB59 /* NSObject+GetHour.m in Sources */ = {isa = PBXBuildFile; fileRef = F090AD661A7A3387003DEB59 /* NSObject+GetHour.m */; };
+		F090AD6D1A7A33D0003DEB59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F090AD6C1A7A33D0003DEB59 /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F090AD531A7A332C003DEB59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F090AD2B1A7A332C003DEB59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F090AD321A7A332C003DEB59;
-			remoteInfo = dateDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F090AD331A7A332C003DEB59 /* dateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +30,11 @@
 		F090AD451A7A332C003DEB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F090AD461A7A332C003DEB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F090AD481A7A332C003DEB59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F090AD4E1A7A332C003DEB59 /* dateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F090AD4F1A7A332C003DEB59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F090AD571A7A332C003DEB59 /* dateDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dateDemoTests-Info.plist"; sourceTree = "<group>"; };
-		F090AD591A7A332C003DEB59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F090AD5B1A7A332C003DEB59 /* dateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dateDemoTests.m; sourceTree = "<group>"; };
+		F090AD651A7A3387003DEB59 /* NSObject+GetHour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GetHour.h"; sourceTree = "<group>"; };
+		F090AD661A7A3387003DEB59 /* NSObject+GetHour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GetHour.m"; sourceTree = "<group>"; };
+		F090AD6B1A7A33D0003DEB59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F090AD6C1A7A33D0003DEB59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +48,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F090AD4B1A7A332C003DEB59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F090AD501A7A332C003DEB59 /* XCTest.framework in Frameworks */,
-				F090AD521A7A332C003DEB59 /* UIKit.framework in Frameworks */,
-				F090AD511A7A332C003DEB59 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				F090AD3C1A7A332C003DEB59 /* dateDemo */,
-				F090AD551A7A332C003DEB59 /* dateDemoTests */,
 				F090AD351A7A332C003DEB59 /* Frameworks */,
 				F090AD341A7A332C003DEB59 /* Products */,
 			);
@@ -88,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				F090AD331A7A332C003DEB59 /* dateDemo.app */,
-				F090AD4E1A7A332C003DEB59 /* dateDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +84,10 @@
 			children = (
 				F090AD451A7A332C003DEB59 /* AppDelegate.h */,
 				F090AD461A7A332C003DEB59 /* AppDelegate.m */,
+				F090AD6B1A7A33D0003DEB59 /* ViewController.h */,
+				F090AD6C1A7A33D0003DEB59 /* ViewController.m */,
+				F090AD651A7A3387003DEB59 /* NSObject+GetHour.h */,
+				F090AD661A7A3387003DEB59 /* NSObject+GetHour.m */,
 				F090AD481A7A332C003DEB59 /* Images.xcassets */,
 				F090AD3D1A7A332C003DEB59 /* Supporting Files */,
 			);
@@ -122,24 +101,6 @@
 				F090AD3F1A7A332C003DEB59 /* InfoPlist.strings */,
 				F090AD421A7A332C003DEB59 /* main.m */,
 				F090AD441A7A332C003DEB59 /* dateDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F090AD551A7A332C003DEB59 /* dateDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				F090AD5B1A7A332C003DEB59 /* dateDemoTests.m */,
-				F090AD561A7A332C003DEB59 /* Supporting Files */,
-			);
-			path = dateDemoTests;
-			sourceTree = "<group>";
-		};
-		F090AD561A7A332C003DEB59 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F090AD571A7A332C003DEB59 /* dateDemoTests-Info.plist */,
-				F090AD581A7A332C003DEB59 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,24 +125,6 @@
 			productReference = F090AD331A7A332C003DEB59 /* dateDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F090AD4D1A7A332C003DEB59 /* dateDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F090AD621A7A332C003DEB59 /* Build configuration list for PBXNativeTarget "dateDemoTests" */;
-			buildPhases = (
-				F090AD4A1A7A332C003DEB59 /* Sources */,
-				F090AD4B1A7A332C003DEB59 /* Frameworks */,
-				F090AD4C1A7A332C003DEB59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F090AD541A7A332C003DEB59 /* PBXTargetDependency */,
-			);
-			name = dateDemoTests;
-			productName = dateDemoTests;
-			productReference = F090AD4E1A7A332C003DEB59 /* dateDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +133,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = shuzhenguo;
-				TargetAttributes = {
-					F090AD4D1A7A332C003DEB59 = {
-						TestTargetID = F090AD321A7A332C003DEB59;
-					};
-				};
 			};
 			buildConfigurationList = F090AD2E1A7A332C003DEB59 /* Build configuration list for PBXProject "dateDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				F090AD321A7A332C003DEB59 /* dateDemo */,
-				F090AD4D1A7A332C003DEB59 /* dateDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,14 +161,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F090AD4C1A7A332C003DEB59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F090AD5A1A7A332C003DEB59 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,40 +170,18 @@
 			files = (
 				F090AD471A7A332C003DEB59 /* AppDelegate.m in Sources */,
 				F090AD431A7A332C003DEB59 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F090AD4A1A7A332C003DEB59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F090AD5C1A7A332C003DEB59 /* dateDemoTests.m in Sources */,
+				F090AD6D1A7A33D0003DEB59 /* ViewController.m in Sources */,
+				F090AD671A7A3387003DEB59 /* NSObject+GetHour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F090AD541A7A332C003DEB59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F090AD321A7A332C003DEB59 /* dateDemo */;
-			targetProxy = F090AD531A7A332C003DEB59 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F090AD3F1A7A332C003DEB59 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F090AD401A7A332C003DEB59 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F090AD581A7A332C003DEB59 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F090AD591A7A332C003DEB59 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -380,46 +287,6 @@
 			};
 			name = Release;
 		};
-		F090AD631A7A332C003DEB59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dateDemo.app/dateDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "dateDemo/dateDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "dateDemoTests/dateDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F090AD641A7A332C003DEB59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dateDemo.app/dateDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "dateDemo/dateDemo-Prefix.pch";
-				INFOPLIST_FILE = "dateDemoTests/dateDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,14 +304,6 @@
 			buildConfigurations = (
 				F090AD601A7A332C003DEB59 /* Debug */,
 				F090AD611A7A332C003DEB59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F090AD621A7A332C003DEB59 /* Build configuration list for PBXNativeTarget "dateDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F090AD631A7A332C003DEB59 /* Debug */,
-				F090AD641A7A332C003DEB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
